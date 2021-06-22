@@ -24,6 +24,7 @@ public class HomeController {
 	//첫번째 분기
 	//두번째 분기
 	//세번째 분기
+	//세번째 분기 수정
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
