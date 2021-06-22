@@ -22,6 +22,7 @@ public class HomeController {
 	//새 분기를 만든거지
 	//한글잘나오나
 	//첫번째 분기
+	//두번째 분기
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
